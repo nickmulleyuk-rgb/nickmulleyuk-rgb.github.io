@@ -3,22 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FiHub Apps</title>
+    <title>FiHub — Financial Tools</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
             background: #121723;
             color: #fff;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            margin: 0;
+            min-height: 100vh;
+            gap: 16px;
         }
-        h1 { font-size: 1.5rem; opacity: 0.8; }
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        p {
+            font-size: 1rem;
+            opacity: 0.5;
+            letter-spacing: 0.02em;
+        }
+        a {
+            margin-top: 8px;
+            display: inline-block;
+            background: #1a6cf5;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            padding: 14px 32px;
+            border-radius: 50px;
+            letter-spacing: 0.03em;
+        }
+        a:hover { opacity: 0.85; }
     </style>
 </head>
 <body>
-    <h1>FiHub Apps</h1>
+    <h1>FiHub</h1>
+    <p>Financial tools for iOS</p>
+    <a href="https://linktr.ee/fihub.world">View our apps</a>
 </body>
 </html>
